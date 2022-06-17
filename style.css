@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    background: rgb(73,255,215);
+background: linear-gradient(158deg, rgba(73,255,215,1) 0%, rgba(91,153,149,1) 55%, rgba(255,243,243,1) 100%);
+
+}
+
+.flags img {
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+
+    .all-countries {
+        display: none;
+    }
+
+    section {
+        justify-content: center;
+    }
+}
